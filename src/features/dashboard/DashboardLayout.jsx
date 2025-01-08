@@ -20,9 +20,6 @@ function DashboardLayout() {
 
   if (isLoading1 || isLoading2 || isLoading3) return <Spinner />;
 
-  console.log(bookings);
-  console.log("this is for stays", stays);
-
   return (
     <StyledDashboardLayout>
       <Stats
@@ -33,7 +30,7 @@ function DashboardLayout() {
       />
       <div>Today&apos;s activity</div>
       <div>Chart of stay duration</div>
-      <SalesChart />
+      <SalesChart bookings={bookings} numDays={numDays} />
     </StyledDashboardLayout>
   );
 }
