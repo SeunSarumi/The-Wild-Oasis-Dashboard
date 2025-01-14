@@ -11,3 +11,5 @@ Customizable UI: Styled Components for a beautiful and responsive design.
 State Management: Context API for seamless state management across components. 
 
 you can check it out here : https://seun-wild-oasis-dash.netlify.app/
+test@test.com
+testtest123
